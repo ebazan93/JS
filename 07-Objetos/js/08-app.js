@@ -8,7 +8,10 @@ const producto = {
 
 Object.freeze(producto);
 
-producto.disponible = false;
-producto.imagen = "imagen.jpg";
+// producto.disponible = false;
+// producto.imagen = "imagen.jpg";
+// delete producto.precio;
 
 console.log(producto);
+
+console.log(Object.isFrozen(producto));
